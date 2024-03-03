@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section {
+            text-align: left;
+            margin: 50px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Learn more about the people behind My Blog.</p>
+    </header>
+    <%- include('nav.ejs') %>
+    <section>
+        <h2>Our Story</h2>
+        <p>Welcome to My Blog, where we share our thoughts, experiences, and knowledge with the world. Our journey began with a passion for exploring various topics and a desire to connect with like-minded individuals. Whether it's travel, technology, lifestyle, or any other fascinating subject, we aim to provide valuable insights and engage our readers in meaningful conversations.</p>
+
+        <h2>The Team</h2>
+        <p>Meet the minds behind the words:</p>
+        <ul>
+            <li><strong>John Doe</strong> - Founder and Chief Editor</li>
+            <li><strong>Jane Smith</strong> - Senior Writer</li>
+            <li><strong>Chris Johnson</strong> - Contributing Author</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>We love hearing from our readers! If you have any questions, suggestions, or just want to say hello, feel free to reach out to us:</p>
+        <p>Email: info@myblog.com</p>
+
+        <h2>Join the Conversation</h2>
+        <p>Connect with us on social media to stay updated on our latest posts and engage in discussions:</p>
+        <p>Twitter: <a href="https://twitter.com/myblog" target="_blank">@myblog</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/myblog" target="_blank">@myblog</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
